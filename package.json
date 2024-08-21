@@ -1,0 +1,18 @@
+{
+  "name": "cypress-testings",
+  "version": "0.1.0",
+  "description": "Repositório de testings com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "runcypress": "cypress run",
+    "cypressreporter": "cypress run --reporter mochawesome",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.3"
+  }
+}
